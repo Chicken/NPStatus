@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now Playing Status</title>
+    <style>
+        :root,
+        html,
+        body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #090609;
+            color: white;
+            font-size: 16px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            background-color: #1db954;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: left;
+            display: flex;
+            cursor: pointer;
+            border-radius: 16px;
+            font-size: calc(2em - 4px);
+        }
+
+        span {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        img {
+            height: 1.5em;
+            margin: 0.25em;
+            margin-right: 0.5em;
+        }
+
+        button:hover {
+            background-color: #1ed760;
+        }
+
+        button:active {
+            background-color: #1aa34a;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="/api/login">
+            <button>
+                <img src="./spotify.png">
+                <span>
+                    Log in with Spotify
+                </span>
+            </button>
+        </a>
+    </div>
+</body>
+
+</html>

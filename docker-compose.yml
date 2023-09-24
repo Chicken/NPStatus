@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  npstatus:
+    image: ghcr.io/chicken/npstatus:latest
+    restart: always
+    volumes:
+      - "./data:/app/data"
+    ports:
+      - "8080:8080/tcp"
+    environment:
+      PORT: 8080
+      UPDATE_INTERVAL: 2000
+      CLIENT_ID: ""
+      CLIENT_SECRET: ""
+      CALLBACK_URL: ""
+
