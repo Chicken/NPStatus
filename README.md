@@ -4,6 +4,13 @@ WebSocket API for getting the currently playing song on Spotify.
 
 Production instance at [https://spotify.antti.codes/](https://spotify.antti.codes/)
 
+## Todo
+
+- Create ToS & Privacy Policy
+- Do whatever the Spotify terms ask for
+- Apply for extended quota mode to allow others to sign up
+  - For now you can ask me I guess...
+
 ## Documentation
 
 ### Authentication
